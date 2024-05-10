@@ -12,7 +12,7 @@
 
 ## Written Computations
 
-<h1 align="center"> Jacobian matrix </h1> 
+<h3 align="center"> Jacobian matrix </h3> 
 <p align="center">
   <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/9d5dd41ed70b924440d863134673bdf674bdc5f2/Manual_Computation_Lab2/Manual%20Computation_Screenshot/Jacobian%20Matrix_1.png alt=Jacobian-Matrix_1 width="1000"/>
     <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/9d5dd41ed70b924440d863134673bdf674bdc5f2/Manual_Computation_Lab2/Manual%20Computation_Screenshot/Jacobian%20Matrix_2.png alt=Jacobian-Matrix_2 width="1000"/>
@@ -21,14 +21,14 @@
 <br>
 
 
-<h1 align="center"> Singularity </h1> 
+<h3 align="center"> Singularity </h3> 
 <p align="center">
   <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/82a793c595033d86e236b5ba716c0b413377f57a/Manual_Computation_Lab2/Manual%20Computation_Screenshot/Singularity.png alt=Singularity width="1000"/>
 </p>
 <br>
 
 
-<h1 align="center"> Inverse Velocity </h1> 
+<h3 align="center"> Inverse Velocity </h3> 
 <p align="center">
   <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/d9758d21d33a67232ff9a7d95a4c38283688ed6e/Manual_Computation_Lab2/Manual%20Computation_Screenshot/Inverse%20Velocity_1.png alt=inverse-velocity_1 width="1000"/>
     <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/d9758d21d33a67232ff9a7d95a4c38283688ed6e/Manual_Computation_Lab2/Manual%20Computation_Screenshot/Inverse%20Velocity_2.png alt=inverse-velocity2 width="1000"/>
@@ -36,6 +36,13 @@
 </p>
 <br>
 
+
+## Jacobian Matrix, Singularity, and Inverse Velocities Table
+<p align="center">
+  <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/aef31688ada65986f14fcde447dc71deb3bd8c15/Jacobian%20Matrix%20Table/Jacobian%20Matrix%2C%20Singularity%2C%20and%20Inverse%20Velocities_1.png alt=Jacobian-Matrix,-Singularity,-and-Inverse-Velocities-Table width="1000"/>
+    <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/aef31688ada65986f14fcde447dc71deb3bd8c15/Jacobian%20Matrix%20Table/Jacobian%20Matrix%2C%20Singularity%2C%20and%20Inverse%20Velocities_2.png alt=Jacobian-Matrix,-Singularity,-and-Inverse-Velocities-Table width="1000"/>
+</p>
+<br>
 
 
 ## GUI with Velocity Calculator
