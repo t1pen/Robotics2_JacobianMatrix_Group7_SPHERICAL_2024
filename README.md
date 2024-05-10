@@ -7,7 +7,7 @@
   - [Singularity](#-singularity-)
   - [Inverse Velocity](#-inverse-velocity-)
 - [GUI with Velocity Calculator](#-gui-with-velocity-calculator-)
-
+<br>
 
 ## Written Computations
 
