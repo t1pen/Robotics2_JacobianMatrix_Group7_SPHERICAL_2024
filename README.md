@@ -6,7 +6,7 @@
   - [Jacobian Matrix](#-jacobian-matrix-)
   - [Singularity](#-singularity-)
   - [Inverse Velocity](#-inverse-velocity-)
-- [Jacobian Matrix, Singularity, and Inverse Velocities Table](#jacobian-matrix,-singularity,-and-inverse-velocities-table)
+- [Jacobian Matrix, Singularity, and Inverse Velocities Table](#jacobian-matrix-,-singularity-,-and-inverse-velocities-table)
 - [GUI with Velocity Calculator](#gui-with-velocity-calculator)
 <br>
 
