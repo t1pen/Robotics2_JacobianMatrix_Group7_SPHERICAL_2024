@@ -9,6 +9,7 @@
 - [GUI with Velocity Calculator](#-gui-with-velocity-calculator-)
 <br>
 
+
 ## Written Computations
 
 <h1 align="center"> Jacobian matrix </h1> 
@@ -18,6 +19,14 @@
     <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/9d5dd41ed70b924440d863134673bdf674bdc5f2/Manual_Computation_Lab2/Manual%20Computation_Screenshot/Jacobian%20Matrix_3.png alt=Jacobian-Matrix_3 width="1000"/>
 </p>
 <br>
+
+
+<h1 align="center"> Singularity </h1> 
+<p align="center">
+  <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/82a793c595033d86e236b5ba716c0b413377f57a/Manual_Computation_Lab2/Manual%20Computation_Screenshot/Singularity.png alt=Jacobian-Matrix_1 width="1000"/>
+</p>
+<br>
+
 
 
 
