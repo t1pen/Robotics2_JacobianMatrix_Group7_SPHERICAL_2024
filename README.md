@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-- [Written Computations](#written-computations-)
+- [Written Computations](#-written-computations-)
   - [Jacobian Matrix](#-jacobian-matrix-)
   - [Singularity](#-singularity-)
   - [Inverse Velocity](#-inverse-velocity-)
