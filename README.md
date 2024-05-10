@@ -2,16 +2,19 @@
 
 
 ## Table of Contents
-- [WRITTEN COMPUTATIONS](#-written-computations-)
-  - [JACOBIAN MATRIX](#-jacobian-matrix-)
-  - [SINGULARITY](#-singularity-)
-  - [INVERSE VELOCITY](#-inverse-velocity-)
-- [GUI-WITH-VELOCITY-CALCULATOR](#-gui-with-velocity-calculator-)
+- [Written Computations](#-written-computations-)
+  - [Jacobian Matrix](#-jacobian-matrix-)
+  - [Singularity](#-singularity-)
+  - [Inverse Velocity](#-inverse-velocity-)
+- [GUI with Velocity Calculator](#-gui-with-velocity-calculator-)
 
 
 ## Written Computations
 
 ### Jacobian Matrix
+
+
+
 
 ## GUI with Velocity Calculator
 
