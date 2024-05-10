@@ -39,6 +39,12 @@
 
 
 ## GUI with Velocity Calculator
+
+This is the GUI for the velocity calculator of the Spherical Manipulator
+<p align="center">
+  <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/assets/157614863/1190cd5b-dd9b-42c9-9a54-8124b300b4c4>
+</p>
+
 <br>
 
 
