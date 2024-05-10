@@ -291,17 +291,16 @@ def f_k():
         # Close existing J_sw window if it exists
 
 
-    #1. Linear/Translation Vectors
-    Z_1 = [[0],[0],[1]] #The [0,0,1] vector
+    # Jacobian Matrix
 
-#Row 1 to 3, column 1
+    # 1. Linear/Translation Vectors
+    Z_1 = np.array([[0], [0], [1]])  # The [0,0,1] vector
+
+    #Row 1 to 3, Column 1
     J1a = [[1,0,0],
-            [0,1,0],
-            [0,0,1]]
+           [0,1,0],
+           [0,0,1]]
     J1a = np.dot(J1a,Z_1)
-    J1a = np.array(J1a)
-    ## print("J1 = ")
-    ## print(J1a)
 
     J1b_1 = H0_3[0:3,3:] #d0_3
     J1b_1 = np.array(J1b_1)
@@ -309,18 +308,17 @@ def f_k():
     J1b_2 = H0_1[0:3,3:] #d0_1
     J1b_2 = np.array(J1b_2)
 
-    J1b = J1b_1 - J1b_2
+    J1b= J1b_1 - J1b_2
 
     J1 = [[J1a[1,0]*J1b[2,0] - J1a[2,0]*J1b[1,0]],
         [J1a[2,0]*J1b[0,0] - J1a[0,0]*J1b[2,0]],
         [J1a[0,0]*J1b[1,0] - J1a[1,0]*J1b[0,0]]]
 
     J1 = np.array(J1)
-    ## print("J1 = ")
-    ## print(J1)
 
-    #Row 1 to 3, column 2
-    J2a = H0_1[0:3,0:3] 
+
+    #Row 1 to 3, Column 2
+    J2a = H0_1[0:3,0:3] #R0_1
     J2a = np.dot(J2a,Z_1)
 
     J2b_1 = H0_3[0:3,3:] #d0_3
@@ -329,53 +327,46 @@ def f_k():
     J2b_2 = H0_1[0:3,3:] #d0_1
     J2b_2 = np.array(J2b_2)
 
-    J2b = J2b_1 - J2b_2
+    J2b= J2b_1 - J2b_2
 
     J2 = [[J2a[1,0]*J2b[2,0] - J2a[2,0]*J2b[1,0]],
         [J2a[2,0]*J2b[0,0] - J2a[0,0]*J2b[2,0]],
         [J2a[0,0]*J2b[1,0] - J2a[1,0]*J2b[0,0]]]
 
     J2 = np.array(J2)
-    ## print("J2 = ")
-    ## print(J2)
 
-    #Row 1 to 3, column 3
-    J3 = H0_2[0:3,0:3] 
-    J3 = np.dot(J3,Z_1)
+    #Row 1 to 3, Column 3
+    J3a = H0_2[0:3,0:3] 
+    J3a = np.dot(J3a,Z_1)
+    J3 = np.array(J3a)
 
-    #2. Rotation / Orientation Vectors
+    # 2. Rotation/Orientation Vectors
     #Row 4 to 6, Column 1
     J4 = J1a
     J4 = np.array(J4)
-    ##print("J4 = ")
-    ##print(J4)
+    print("J4 = ")
+    print(J4)
 
     #Row 4 to 6, Column 2
     J5 = J2a
     J5 = np.array(J5)
-    # print("J5 = ")
-    # print(J5)
+    print("J5 = ")
+    print(J5)
 
-    #Row 4 to 6, Column 3
-    J6 = [[0], [0], [0]]
-    J6 = np.array(J6)
-    # print("J6 = ")
-    # print(J6)
+    J6 = np.array([[0], [0], [0]])
 
-    #3. Concatenated Jacobian Matrix
-    JM1 = np.concatenate((J1,J2,J3),1)
-    JM2 = np.concatenate((J4,J5,J6),1)
+    # 3. Concatenated Jacobian Matrix
+    JM1 = np.concatenate((J1, J2, J3), axis=1)
+    JM2 = np.concatenate((J4, J5, J6), axis=1)
+    J = np.concatenate((JM1, JM2), axis=0)
 
-    J = np.concatenate((JM1,JM2),0)
-    # print("J = ")
-    # print(np.around(J,3))
+    print("Jacobian Matrix J = ")
+    print(np.around(J, 3))
 
-    #4. Differential Equations
-    xp, yp, zp = sp.symbols('x* y* z*')
-    ωx, ωy, ωz = sp.symbols('ωx ωy ωz')
-    d1_p, T2_p, T3_p = sp.symbols('ϴ1* ϴ2* d3*')
+    # 4. Differential Equations
+    T1_p, T2_p, d3_p = sp.symbols('θ1* θ2* d3*')
 
-    q = [[d1_p],[T2_p],[T3_p]]
+    q = [[T1_p], [T2_p], [d3_p]]
 
     E = np.dot(J,q)
     E = np.array(E)
