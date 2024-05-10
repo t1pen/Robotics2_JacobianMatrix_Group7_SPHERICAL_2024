@@ -55,6 +55,8 @@ i_k_row_index = 1
 save_to_excel_var = BooleanVar()
 save_to_excel_var.set(True)  # Set to off by default
 
+J_sw = None
+
 def toggle_save_to_excel():
     global save_to_excel_var
 
@@ -170,8 +172,14 @@ def view_excel_file():
     except Exception as e:
         messagebox.showerror("Error", f"Error opening Excel file: {e}")
 
+def close_J_sw():
+    if 'J_sw' in globals() and J_sw is not None:
+        J_sw.destroy()
 
 def f_k():
+
+    close_J_sw()
+    
  # Get values from entry widgets
     a1 = a1_E.get().strip()
     a2 = a2_E.get().strip()
@@ -271,13 +279,17 @@ def f_k():
     save_to_excel_fk()
 
 ## Jacobian (Velocity Calculator)
-    
+
+    global J_sw    
     J_sw = Toplevel(window)
     J_sw.title("Velocity Calculator")
     J_sw.geometry("375x500")
     J_sw.configure(bg = "#FFFFFF")
     J_sw.resizable(False,False)
     J_sw.iconbitmap(r"assets\robotic-arm.ico")
+
+        # Close existing J_sw window if it exists
+
 
     #1. Linear/Translation Vectors
     Z_1 = [[0],[0],[1]] #The [0,0,1] vector
