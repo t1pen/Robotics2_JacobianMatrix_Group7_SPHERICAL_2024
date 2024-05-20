@@ -65,12 +65,12 @@ This is the GUI for the velocity calculator of the Spherical Manipulator
 
 ## Path and Trajectory
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In robotics, "path" and "trajectory" are fundamental concepts that describe the movement of a robot or its components from one point to another. While they are related, they refer to different aspects of this movement.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In robotics, "<b><i>path</b></i>" and "<b><i>trajectory</i></b>" are fundamental concepts that describe the movement of a robot or its components from one point to another. While they are related, they refer to different aspects of this movement.
 <br>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For better understanding and deep learning let us differentiate the two. In robotics, path refers to the geometric shape or route that a robot follows to get from its starting point to its destination. It is essentially a sequence of points in space that define the robot's route without considering the timing or dynamics of the movement. The path is purely spatial and does not account for how fast or slow the robot moves along this route.
-On the other hand, trajectory includes both the path and the temporal aspect of the movement. It defines not only the geometric route that the robot follows but also the timing, speed, and acceleration along the path. Essentially, a trajectory specifies how the robot moves along the path over time.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For better understanding and deep learning let us differentiate the two. In robotics, <b><i>path</i></b> refers to the geometric shape or route that a robot follows to get from its starting point to its destination. It is essentially a sequence of points in space that define the robot's route without considering the timing or dynamics of the movement. The path is purely spatial and does not account for how fast or slow the robot moves along this route.
+On the other hand, <b><i>trajectory</i></b> includes both the path and the temporal aspect of the movement. It defines not only the geometric route that the robot follows but also the timing, speed, and acceleration along the path. Essentially, a trajectory specifies how the robot moves along the path over time.
 
 
 ### Group Members:
