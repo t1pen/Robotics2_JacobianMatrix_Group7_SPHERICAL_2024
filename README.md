@@ -70,6 +70,10 @@ This is the GUI for the velocity calculator of the Spherical Manipulator
 <br>
 
 ## Path and Trajectory
+<p align="center">
+ <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/tree/e9bae3e176bbef976148dac9393f650d2bac272f/Images>
+</p>
+<br>
 
 
 <p align="justify"> 
