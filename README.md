@@ -9,7 +9,7 @@
   - [Singularity](#-singularity-)
   - [Inverse Velocity](#-inverse-velocity-)
   - [Jacobian Matrix, Singularity, and Inverse Velocities Table](#jacobian-matrix-singularity-and-inverse-velocities-table)
-- [IV. GUI with Velocity Calculator](#iv-gui-with-velocity-calculator)
+- [IV. GUI with Velocity Calculator](#gui-with-velocity-calculator)
 - [V. Path and Trajectory](#v-path-and-trajectory)
 - [VI. References](#vi-references)
 <br>
