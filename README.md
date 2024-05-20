@@ -2,16 +2,17 @@
 
 
 ## Table of Contents
-- [I. Abstract](#i-abstract)
-- [II. Introduction](#ii-introduction)
+- [I. Abstract](#abstract)
+- [II. Introduction](#introduction)
 - [III. Written Computations](#written-computations)
   - [Jacobian Matrix](#-jacobian-matrix-)
   - [Singularity](#-singularity-)
   - [Inverse Velocity](#-inverse-velocity-)
   - [Jacobian Matrix, Singularity, and Inverse Velocities Table](#jacobian-matrix-singularity-and-inverse-velocities-table)
 - [IV. GUI with Velocity Calculator](#gui-with-velocity-calculator)
-- [V. Path and Trajectory](#v-path-and-trajectory)
-- [VI. References](#vi-references)
+- [V. Path and Trajectory](#path-and-trajectory)
+- [VI. References](#references)
+- [VII. Group Members](#group=members)
 <br>
 
 
@@ -60,8 +61,12 @@ This is the GUI for the velocity calculator of the Spherical Manipulator
 <p align="center">
   <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/assets/157614863/1190cd5b-dd9b-42c9-9a54-8124b300b4c4>
 </p>
-
 <br>
+
+## Path and Trajectory
+In robotics, "path" and "trajectory" are fundamental concepts that describe the movement of a robot or its components from one point to another. While they are related, they refer to different aspects of this movement.
+For better understanding and deep learning let us differentiate the two. In robotics, path refers to the geometric shape or route that a robot follows to get from its starting point to its destination. It is essentially a sequence of points in space that define the robot's route without considering the timing or dynamics of the movement. The path is purely spatial and does not account for how fast or slow the robot moves along this route.
+On the other hand, trajectory includes both the path and the temporal aspect of the movement. It defines not only the geometric route that the robot follows but also the timing, speed, and acceleration along the path. Essentially, a trajectory specifies how the robot moves along the path over time.
 
 
 ### Group Members:
