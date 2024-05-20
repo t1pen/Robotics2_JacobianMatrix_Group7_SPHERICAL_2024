@@ -4,16 +4,20 @@
 ## Table of Contents
 - [I. Abstract](#i-abstract)
 - [II. Introduction](#ii-introduction)
-- [Written Computations](#written-computations)
+- [III. Written Computations](#written-computations)
   - [Jacobian Matrix](#-jacobian-matrix-)
   - [Singularity](#-singularity-)
   - [Inverse Velocity](#-inverse-velocity-)
-- [Jacobian Matrix, Singularity, and Inverse Velocities Table](#jacobian-matrix-singularity-and-inverse-velocities-table)
-- [GUI with Velocity Calculator](#gui-with-velocity-calculator)
+  - [Jacobian Matrix, Singularity, and Inverse Velocities Table](#jacobian-matrix-singularity-and-inverse-velocities-table)
+- [IV. GUI with Velocity Calculator](#iv-gui-with-velocity-calculator)
+- [V. Path and Trajectory](#v-path-and-trajectory)
+- [VI. References](#vi-references)
 <br>
 
 
 ## Abstract
+
+## Introduction
 
 ## Written Computations
 
