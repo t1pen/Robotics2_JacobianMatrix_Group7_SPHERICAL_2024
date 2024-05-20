@@ -70,6 +70,8 @@ This is the GUI for the velocity calculator of the Spherical Manipulator
 <br>
 
 ## Path and Trajectory
+
+
 <p align="justify"> 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In robotics, "<b><i>path</b></i>" and "<b><i>trajectory</i></b>" are fundamental concepts that describe the movement of a robot or its components from one point to another. While they are related, they refer to different aspects of this movement.
 <br>
