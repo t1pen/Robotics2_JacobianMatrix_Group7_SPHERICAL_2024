@@ -3,9 +3,9 @@
 
 ## Table of Contents
 - [Written Computations](#written-computations)
-  - [Jacobian Matrix](#-jacobian-matrix-)
-  - [Singularity](#-singularity-)
-  - [Inverse Velocity](#-inverse-velocity-)
+  - [Jacobian matrix](#jacobian-matrix)
+  - [Singularity](#singularity)
+  - [Inverse Velocity](#inverse-velocity)
   - [Jacobian Matrix, Singularity, and Inverse Velocities Table](#jacobian-matrix-singularity-and-inverse-velocities-table)
 - [GUI with Velocity Calculator](#gui-with-velocity-calculator)
 - [Group Members](#group-members)
@@ -13,7 +13,8 @@
 
 ## Written Computations
 
-<h3 align="center"> Jacobian matrix </h3> 
+<h3 align="center" id="jacobian-matrix">Jacobian matrix</h3>
+
 <p align="center">
   <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/9d5dd41ed70b924440d863134673bdf674bdc5f2/Manual_Computation_Lab2/Manual%20Computation_Screenshot/Jacobian%20Matrix_1.png alt=Jacobian-Matrix_1 width="1000"/>
     <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/blob/9d5dd41ed70b924440d863134673bdf674bdc5f2/Manual_Computation_Lab2/Manual%20Computation_Screenshot/Jacobian%20Matrix_2.png alt=Jacobian-Matrix_2 width="1000"/>
