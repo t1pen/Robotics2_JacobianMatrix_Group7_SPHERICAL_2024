@@ -2,14 +2,29 @@
 
 
 ## Table of Contents
-- [Written Computations](#written-computations)
+- [I. Abstract](#abstract)
+- [II. Introduction](#introduction)
+- [III. Written Computations](#written-computations)
   - [Jacobian Matrix](#-jacobian-matrix-)
   - [Singularity](#-singularity-)
   - [Inverse Velocity](#-inverse-velocity-)
-- [Jacobian Matrix, Singularity, and Inverse Velocities Table](#jacobian-matrix-singularity-and-inverse-velocities-table)
-- [GUI with Velocity Calculator](#gui-with-velocity-calculator)
+  - [Jacobian Matrix, Singularity, and Inverse Velocities Table](#jacobian-matrix-singularity-and-inverse-velocities-table)
+- [IV. GUI with Velocity Calculator](#gui-with-velocity-calculator)
+- [V. Path and Trajectory](#path-and-trajectory)
+- [VI. Group Members](#group-members)
 <br>
 
+
+## Abstract
+<p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In robotics, spherical manipulators are essential because they provide a flexible means of exact control and manipulation in three dimensions. A key tool for examining the kinematics and dynamics of these manipulators and gaining insight into their dexterity and range of motion is the Jacobian matrix. The importance of the Jacobian matrix in spherical manipulators is examined in this abstract, with particular attention to how it maps joint velocities to end-effector velocities. The Jacobian matrix illustrates the relationship between joint velocities and end-effector velocities, making it possible to predict the changes of how joint configuration will affect its end-effector movement. Through computations, engineers can easily evaluate the singularities of spherical manipulators which is essential for maximizing their performance and efficient use in operation. Singularities are configurations where the manipulator loses degrees of freedom or runs into motion restrictions. 
+<br>
+  
+<p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Furthermore, the jacobian matrix helps with tasks like obstacle avoidance, path optimization, and trajectory tracking by facilitating motion planning and trajectory development for spherical manipulators. Engineers can use the Jacobian matrix to generate viable and smooth trajectories that will satisfy specific task criteria through the use of numerical techniques and optimization algorithms.
+<br>
+  
+## Introduction
 
 ## Written Computations
 
@@ -52,8 +67,22 @@ This is the GUI for the velocity calculator of the Spherical Manipulator
 <p align="center">
   <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/assets/157614863/1190cd5b-dd9b-42c9-9a54-8124b300b4c4>
 </p>
-
 <br>
+
+## Path and Trajectory
+<p align="center">
+ <img src=https://github.com/t1pen/Robotics2_JacobianMatrix_Group7_SPHERICAL_2024/tree/e9bae3e176bbef976148dac9393f650d2bac272f/Images>
+</p>
+<br>
+
+
+<p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In robotics, "<b><i>path</b></i>" and "<b><i>trajectory</i></b>" are fundamental concepts that describe the movement of a robot or its components from one point to another. While they are related, they refer to different aspects of this movement.
+<br>
+
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For better understanding and deep learning let us differentiate the two. In robotics, <b><i>path</i></b> refers to the geometric shape or route that a robot follows to get from its starting point to its destination. It is essentially a sequence of points in space that define the robot's route without considering the timing or dynamics of the movement. The path is purely spatial and does not account for how fast or slow the robot moves along this route.
+On the other hand, <b><i>trajectory</i></b> includes both the path and the temporal aspect of the movement. It defines not only the geometric route that the robot follows but also the timing, speed, and acceleration along the path. Essentially, a trajectory specifies how the robot moves along the path over time.
 
 
 ### Group Members:
@@ -61,4 +90,5 @@ This is the GUI for the velocity calculator of the Spherical Manipulator
 - Apostol, Jan Benedict D.      
 - Cardenas, Sofia Bianca J.     
 - Catapang, Jamil Darrius S.    
-- Umali, Ariane Mae D.          
+- Umali, Ariane Mae D.
+
